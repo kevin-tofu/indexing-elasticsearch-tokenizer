@@ -20,6 +20,6 @@ poetry install
 
 ```bash
 
-poetry install
+poetry run python src/main.py --elasticsearch_url http://localhost:9200
 
 ```
