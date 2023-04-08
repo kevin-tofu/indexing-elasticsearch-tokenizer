@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "indexing-jp-elasticsearch"
+version = "0.1.0"
+description = ""
+authors = ["kohei <koheitech001@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "indexing_jp_elasticsearch"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10, <3.11"
+argparse = "^1.4.0"
+requests = "^2.28.2"
+elasticsearch = "^8.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
