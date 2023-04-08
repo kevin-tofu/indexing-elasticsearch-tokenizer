@@ -6,7 +6,7 @@
 | --- | --- | --- |
 | path_analyzer | ./analyzer.json |  |
 | elasticsearch_url | http://localhost:9200 |  |
-| elasticsearch_tokenizer | elasticsearch_index |  |
+| elasticsearch_tokenizer | kuromoji_tokenizer |  |
 | elasticsearch_index | article |  |
 | path_export | ./export |  |
 
