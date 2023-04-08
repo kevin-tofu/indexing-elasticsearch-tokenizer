@@ -18,8 +18,17 @@ poetry install
 
 ```
 
+### Installation
+
 ```bash
 
-poetry run python src/main.py --elasticsearch_url http://localhost:9200
+poetry run python es_indexing/main.py --elasticsearch_url http://localhost:9200
 
 ```
+
+### Run
+
+## Reference
+
+<https://elasticsearch-py.readthedocs.io/en/v8.7.0/#>
+<https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html>
